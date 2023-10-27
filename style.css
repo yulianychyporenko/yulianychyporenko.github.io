@@ -1,0 +1,14 @@
+h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.list1 {
+    list-style-type: circle;
+}
+
+.list2 {
+    list-style-type: square;
+}
