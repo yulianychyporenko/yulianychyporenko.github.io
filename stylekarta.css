@@ -1,6 +1,49 @@
 .left {
-    padding-left: 20px;
+    margin-left: 20px;
     background: white;
-    height: 1000px;
-    width: 100px;
+    height: 500px;
+    width: 360px;
+}
+
+.right_1 {
+    margin-left: 50px;
+    height: 65px;
+    width: 900px;
+    background: white;
+}
+
+.right_2 {
+    margin-top: 5px;
+    height: 300px;
+    width: 900px;
+    background: white;
+}
+
+h1 {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    padding-left: 20px;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+td {
+    font-family: Georgia, serif;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.text {
+    padding-left: 20px;
+    padding-top: 30px;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    font-weight: normal;
 }
