@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+    margin: 10px;
+    padding: 0px;
+    font-size: 1.3em;
+
+}
+.main {
+    background-color: red;
+    border: 1px solid yellow;
+    border-bottom: none;
+    background: url(texture.jpg) repeat-x;
+    height: 100px;
+    margin: 0px;
+}
+.menu {
+    background-color: #800000;
+    border: 1px solid yellow;
+    height: 26px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+div.menu ul li {
+    float: left;
+    color: white;
+    list-style: none;	/* zrušenie bodiek v zozname*/
+    margin-top: -20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+    width: 20%;	/* možnosť regulovania rozmiestnenia položiek v menu*/
+    text-align: center;
+    line-height: 25px;
+    font-size: 0.9em;
+    font-weight: normal;
+    letter-spacing: 1px;
+
+}
+div.menu ul li:hover {
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    cursor: pointer;
+    background-color: dimgray;
+}
+.body {
+    background-color: azure;
+    text-align: justify;
+}
+.body h2 {
+    background-color: red;
+    text-align: center;
+    color: yellow;
+    text-shadow: 3px 2px #000000;
+}
+.body div{
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.menu a:link {
+    text-decoration-line: none;
+    color: white;
+}
+.menu a:visited {
+    text-decoration-line: none;
+    color: white;
+}
+.menu a:hover {
+    text-decoration-line: none;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+.menu a:active {
+    text-decoration-line: none;
+    color: white;
+}
