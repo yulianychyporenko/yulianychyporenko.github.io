@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link REL="stylesheet" TYPE="text/css"
+          HREF="styleform.css">
+    <title>Nychyporenko Yulia: Konkurz na pracovné miesto v leteckom podniku</title>
+</head>
+<body>
+<form class="transparent">
+    <div class="form-inner">
+        <h1>Koknurz</h1>
+        <label for = "work">Vyberte vhodnú polohu: <b>*</b></label>
+        <select name = "work" id = "work" required>
+            <option value = "-">-</option>
+            <option value = "Pilot">Pilot</option>
+            <option value = "Letuška">Letuška</option>
+            <option value = "Ochrana letiska">Ochrana letiska</option>
+            <option value = "Sekretárka">Sekretárka</option>
+            <option value = "Referent">Referent</option>
+            <option value = "Vodič">Vodič</option>
+            <option value = "Upratovačka">Upratovačka</option>
+            <option value = "Predavač">Predavač</option>
+            <option value = "Vedúci oddelenia">Vedúci oddelenia</option>
+            <option value = "Poradca">Poradca</option>
+        </select>
+        <h2>osobne udaje:</h2>
+        <table border = 0>
+            <tr>
+                <td width="600px">
+                    <label for = "name" style="float: left; padding-right: 15px">Meno: <b>*</b></label>
+                    <input id = "name" type = "text" required >
+                    <label for = "surname" style="float: left; padding-right: 15px">Priezvisko: <b>*</b></label>
+                    <input id = "surname" type = "text" required>
+                    <label for = "age" style="float: left; padding-right: 15px">Dátum narodenia: <b>*</b></label>
+                    <input id = "age" type = "date" required>
+                    <label for = "poh" style="float: left; padding-right: 15px">Pohlavie: <b>*</b></label>
+                    <select name = "poh" id = "poh" required style="margin-top: 30px">
+                        <option value = "-">-</option>
+                        <option value = "M">M</option>
+                        <option value = "F">F</option>
+                    </select>
+
+                </td>
+                <td width="600px">
+                    <label for = "phone" style="float: left; padding-right: 15px">Tel. čislo: <b>*</b></label>
+                    <input id = "phone" type = "number" required class="phone">
+                    <label for = "email" style="float: left; padding-right: 15px">E-mail: <b>*</b></label>
+                    <input id = "email" type = "email" required>
+                    <label for = "vzd" style="float: left; padding-right: 15px">Vzdelanie (odbor): </label>
+                    <input id = "vzd" type = "text">
+                    <label for = "web" style="float: left; padding-right: 15px">Web-stranka: </label>
+                    <input id = "web" type = "text">
+                </td>
+            </tr>
+        </table>
+        <h2>práca:</h2>
+        <label for = "exp">Povedzte nám o svojich pracovných skúsenostiach (ak nejaké máte): </label>
+        <textarea id = "exp"></textarea>
+        <label for = "zruc">povedzte nám o zručnostiach, ktoré si myslíte, že budú pre túto pozíciu potrebné: <b>*</b></label>
+        <textarea id = "zruc" required></textarea>
+        <label for = "why">povedzte nam, prečo by ste mali zaujať túto pozíciu: <b>*</b></label>
+        <textarea id = "why" required></textarea>
+        <label for = "why2">povedzte nám, prečo ste si vybrali túto spoločnosť: <b>*</b></label>
+        <textarea id = "why2" required></textarea>
+        <label for = "co">povedzte nám o svojich želaniach na zlepšenie spoločnosti (ak nejaké máte): </label>
+        <textarea id = "co"></textarea>
+        <input type="submit" value="Odoslať" style="margin-top: 50px">
+    </div>
+</form>
+</body>
+</html>
